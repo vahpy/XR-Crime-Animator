@@ -1,0 +1,290 @@
+{
+    "name": "MyInputActions",
+    "maps": [
+        {
+            "name": "RecordingKeys",
+            "id": "8508787a-7703-427e-937d-2b29d9854e46",
+            "actions": [
+                {
+                    "name": "PrimaryButton",
+                    "type": "Button",
+                    "id": "59a5b7ed-14d6-48d3-94c6-3575c949f4fe",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "SecondaryButton",
+                    "type": "Button",
+                    "id": "941108ac-768e-4223-b137-e1938ec7320b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "PrimaryButton/R",
+                    "id": "440167b6-bb20-46a4-9498-f4e576841b4e",
+                    "path": "ButtonFallback",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PrimaryButton",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "first",
+                    "id": "4e3802f0-e3f0-445b-bb6d-a5513edbf739",
+                    "path": "<XRController>{LeftHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PrimaryButton",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "second",
+                    "id": "f184e4c4-0329-4b6e-80d2-bde59718c444",
+                    "path": "<Keyboard>/#(R)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PrimaryButton",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "SecondaryButton/T",
+                    "id": "02b5b7a9-4f5b-42a4-9565-aa4250e4d0a2",
+                    "path": "ButtonFallback",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SecondaryButton",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "first",
+                    "id": "5b916917-52d4-4725-8d04-2e3756365277",
+                    "path": "<XRController>{LeftHand}/secondaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SecondaryButton",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "second",
+                    "id": "7a29110d-b966-451c-a33b-2d5e0fc77bd2",
+                    "path": "<Keyboard>/#(B)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SecondaryButton",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        },
+        {
+            "name": "InteractionKeys",
+            "id": "387d8977-8667-422b-814c-8d6f906e90f6",
+            "actions": [
+                {
+                    "name": "TriggerInteraction",
+                    "type": "Button",
+                    "id": "151be05a-b047-441f-8737-cdf423bd7a19",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "SqueezeButton/RightClick",
+                    "id": "8773192c-c125-4e77-8acc-724a3e31a810",
+                    "path": "ButtonFallback",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TriggerInteraction",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "first",
+                    "id": "56a62fab-0e5f-4564-969d-32a6eebcfed1",
+                    "path": "<XRController>{LeftHand}/{GripButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TriggerInteraction",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "first",
+                    "id": "29de5ab0-94df-4e0b-9a22-9bcb1419d727",
+                    "path": "<XRController>{RightHand}/{GripButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TriggerInteraction",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "first",
+                    "id": "b2d7f1ab-3d21-410b-bccf-e8137226a84e",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TriggerInteraction",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        },
+        {
+            "name": "NavigationKeys",
+            "id": "33240b4d-bd7d-49fb-ae51-8f795d3346c9",
+            "actions": [
+                {
+                    "name": "ChangeView",
+                    "type": "Button",
+                    "id": "60edbc2f-d643-4043-95b8-670db09f9df9",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "PanZoom",
+                    "type": "Button",
+                    "id": "3119629d-a06a-4794-9824-bc31a829c4ab",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "86526fc1-9f10-4840-a1fc-2f7b44113ac3",
+                    "path": "<XRController>/{Primary2DAxisClick}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ChangeView",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3a009f29-9d5d-448a-a5ce-6b18c3c850c6",
+                    "path": "<Keyboard>/v",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ChangeView",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "One Modifier",
+                    "id": "392cdacc-cb46-4727-9bf9-fa309faed220",
+                    "path": "OneModifier",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PanZoom",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "binding",
+                    "id": "2cfaa594-ef4d-444a-aa32-6acd0a01a259",
+                    "path": "<XRController>{RightHand}/{GripButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PanZoom",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "modifier",
+                    "id": "f6891915-cac9-4584-a3ef-34ae86091b4b",
+                    "path": "<XRController>{LeftHand}/{GripButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PanZoom",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        },
+        {
+            "name": "UIKeys",
+            "id": "271f3338-3d51-47d6-a8f8-260a78acb47e",
+            "actions": [
+                {
+                    "name": "OpenMenu",
+                    "type": "Button",
+                    "id": "2671b1a0-9b1d-4c0e-9c73-f4e45bdb7c0f",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "db15d732-f85a-4649-8c6e-d3c0e979f0c4",
+                    "path": "<XRController>{LeftHand}/{MenuButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OpenMenu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d48605dd-7160-4104-8008-ccf25772cc36",
+                    "path": "<Keyboard>/#(M)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OpenMenu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "80069cfd-2e1e-491d-926a-2fe31df53bb2",
+                    "path": "<XRController>{LeftHand}/{Back}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OpenMenu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
